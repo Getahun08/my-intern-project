@@ -1,0 +1,59 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Django specific
+db.sqlite3
+*.log
+*.pot
+*.py[co]
+*.sqlite3
+*.pyo
+*.pyd
+
+# Media and static files
+/media/
+staticfiles/
+static/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Testing
+.tox/
+.nox/
+*.test
+*.tests
+
+# Migrations
+**/migrations/*.pyc
+**/migrations/*.py~
+**/migrations/__pycache__/
+
+# Build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+*.sqlite3
